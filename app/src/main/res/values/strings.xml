@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">My Profile</string>
+    <string name="name">Hemantkumar Nimje</string>
+    <string name="contact_number">(562)3149923</string>
+    <string name="email_address">nimje.hemant@gmail.com</string>
+    <string name="address">4914 E Los Coyotes Diagonal, #3</string>
+
+    <string name="content_description_profile_pic">Profile Pic</string>
+    <string name="content_description_call_icon">Call Icon</string>
+    <string name="content_description_email_icon">Email Id Icon</string>
+    <string name="content_description_address_icon">Address Icon</string>
+
 </resources>

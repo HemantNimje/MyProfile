@@ -8,4 +8,33 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="IconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="HeaderTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">36dp</item>
+        <item name="android:paddingStart">36dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="SubHeaderTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">24dp</item>
+        <item name="android:paddingLeft">36dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
 </resources>

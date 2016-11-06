@@ -1,17 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
+    android:orientation="vertical"
     tools:context="com.example.myprofile.MainActivity">
 
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/content_description_profile_pic"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_pic_cropped" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:id="@+id/name"
+        style="@style/HeaderTextStyle"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/contact"
+        style="@style/SubHeaderTextStyle"
+        android:drawableStart="@drawable/ic_local_phone_black_24dp"
+        android:text="@string/contact_number" />
+
+    <TextView
+        android:id="@+id/email"
+        style="@style/SubHeaderTextStyle"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:text="@string/email_address" />
+
+    <TextView
+        android:id="@+id/address"
+        style="@style/SubHeaderTextStyle"
+        android:layout_marginBottom="16dp"
+        android:drawableStart="@drawable/ic_my_location_black_24dp"
+        android:text="@string/address" />
+
+</LinearLayout>
